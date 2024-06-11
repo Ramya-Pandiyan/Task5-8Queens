@@ -1,0 +1,107 @@
+
+*{
+    font-family: Montserrat, sans-serif !important;
+}
+
+body{
+    height: 100vh;
+    background-image: url("pexels-8moments-1323550.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif !important;
+    
+}
+
+.center{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 450px;
+    box-shadow: 5px 5px 5px rgb(135, 132, 132);
+}
+
+h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+form .txt{
+    position: relative;
+    margin-left: 30px;
+    font-weight: 500;
+    margin: 30px;
+    border-bottom: 1px solid white;
+    
+}
+
+.txt input{
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    padding-top: 13px;
+    padding-bottom: 0px;
+    color: aliceblue;
+    padding-left:28px;
+    font-size: medium;
+}
+
+input[type='submit']{
+    width: 240px;
+    border-radius: 25px;
+    height: 40px;
+    color: white;
+    font-weight: 00;
+    background-color: red;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+
+.txt label{
+    padding-left:28px;
+    padding-bottom: 10px;
+}
+
+hr{
+    
+    width: 250px;
+}
+
+.problems{
+    margin-bottom: 40px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: rgb(226, 214, 199);
+    line-height:0;
+}
+
+.problems:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+    border:3px solid white;
+}
+
+::placeholder {
+    font-size: 12px; 
+    color: white;
+  }
+
